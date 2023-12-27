@@ -50,7 +50,8 @@ equalsButton.setOnAction(event -> {
 
     if (Double.isNaN(result)) {
         resultField.setText("Error: Division by Zero");
-    } else {
+    } else 
+    {
         resultField.setText(String.valueOf(result));
     }
 });
