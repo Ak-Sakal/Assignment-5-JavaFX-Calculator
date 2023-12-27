@@ -31,7 +31,8 @@ public class Calculator {
                 if (operand2 == 0) {
                     // Handle division by zero
                     result = Double.NaN;
-                } else {
+                } else 
+                {
                     result = operand1 / operand2;
                 }
                 break;
